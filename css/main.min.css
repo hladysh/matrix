@@ -724,7 +724,8 @@ a:hover {
   width: 60%;
   height: 51px;
   padding: 0 10px;
-  margin-right: 3%; }
+  margin-right: 3%;
+  border: 1px solid #000;	}
 
 #form-subsscribe .subsscribe-send {
   color: #fff;
