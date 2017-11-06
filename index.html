@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/main.min.css">
-
 </head>
 <body>
 	<!-- HEADER -->
@@ -26,10 +25,10 @@
 			<div class="header-top-nav">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-10">
+						<div class="col-md-10 col-md-offset-0 col-sm-offset-1 col-sm-10">
 							<p class="top-nav-text">Хто як не ми? Задумуєшся, тебе болить - хто ми, які і куди йдемо? Отримуй інформацію, дискутуй, пропонуй рішення!</p>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-2 col-sm-12">
 							<ul class="social-list">
 								<li class="social-item">
 									<a href="" class="social-link" target="_blank">
@@ -59,11 +58,12 @@
 			<nav id="navigation">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12 ">
 							<div class="logo-wrap">
-								<a href="#" class="logo-link"><img src="img/logo.png" alt="логотип Matrix"></a>
+								<a href="#" class="logo-link main-logo"><img src="img/logo.png" alt="логотип Matrix"></a>
+								<a href="#" class="logo-link logo-mobile"><img src="img/logo-mobile.png" alt="логотип Matrix"></a>
 							</div>
-							<ul class="nav-list">
+							<ul class="nav-list" id="nav-list">
 								<li class="nav-item">
 									<a href="#" class="nav-link drop-menu">ТЕМАТИЧНІ ПІДБІРКИ</a>
 									<ul  class="sub-menu">
@@ -101,13 +101,19 @@
 								<li class="enter-item enter-line"></li>
 								<li class="enter-item"><a href="#" class="entet-link">Реєстрація<i class="fa fa-user" aria-hidden="true"></i></a></li>
 							</ul>
+							<div id="nav-toggle" class="nav_slide_button">
+								<span class="nav-arrow"></span>
+							</div>	
 						</div>
 					</div>
+				</div>
+				<div id="menu-mobile" class="">
+
 				</div>
 			</nav>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6">
 						<div class="top-slider">
 							<div>
 								<div class="slids-content">
@@ -153,11 +159,11 @@
 	<div class="content">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-12">
 					<div class="content-menu-wrap">
 						<p class="content-subtitle">ВІДІБРАТИ</p>  
 						<div class="oll-servs">
-							<a href="#" class="oll-servs-title">УСІ ПІДБІРКИ</a>
+							<span class="oll-servs-title">УСІ ПІДБІРКИ</span>
 							<ul class="servs-list">
 								<li class="servs-item">
 									<a href="#">ПІДБІРКа 1</a>
@@ -174,8 +180,8 @@
 		</div>
 		<div class="post-content-wrap">
 			<div class="row">
-				<div class="col-md-6">
-					<div class="img-wrap">
+				<div class="col-md-6 col-sm-12">
+					<div class="img-wrap big-img">
 						<img src="img/content-img-1.jpg" alt="alt">
 					</div>	
 					<div class="post-content arrow arrow-top big-post">
@@ -202,8 +208,8 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="col-md-6">
+				<div class="col-md-6 col-sm-12">
+					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="post-content arrow arrow-right">
 							<div class="post-detail">
 								<a href="#" class="category">ГЕОСТРАТЕГІЯ</a>
@@ -228,17 +234,17 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6">			
+					<div class="col-md-6 col-sm-6 col-xs-6">			
 						<div class="img-wrap">
 							<img src="img/content-img-2.jpg" alt="alt">
 						</div>	
 					</div>
-					<div class="col-md-6">			
+					<div class="col-md-6 col-sm-6 col-xs-6">			
 						<div class="img-wrap">
 							<img src="img/content-img-3.jpg" alt="alt">
 						</div>	
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-6 col-xs-6">
 						<div class="post-content arrow arrow-left">
 							<div class="post-detail">
 								<a href="#" class="category">ГЕОСТРАТЕГІЯ</a>
@@ -266,7 +272,7 @@
 				</div>	
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="post-content arrow arrow-right">
 						<div class="post-detail">
 							<a href="#" class="category">ГЕОСТРАТЕГІЯ</a>
@@ -291,19 +297,19 @@
 						</ul>
 					</div>
 				</div>	
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="img-wrap">
 						<img src="img/content-img-4.jpg" alt="alt">
 					</div>	
 				</div>	
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="post-content adword">
 						<div class="adword-content">
 							РЕКЛАМА
 						</div>
 					</div>
 				</div>	
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="post-content adword">
 						<div class="adword-content">
 							РЕКЛАМА
@@ -312,7 +318,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="post-content arrow arrow-right">
 						<div class="post-detail">
 							<a href="#" class="category">ГЕОСТРАТЕГІЯ</a>
@@ -337,19 +343,19 @@
 						</ul>
 					</div>
 				</div>	
-				<div class="col-md-9">
+				<div class="col-md-9 col-sm-6 col-xs-6">
 					<div class="img-wrap">
 						<img src="img/content-img-6.jpg" alt="alt">
 					</div>	
 				</div>	
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="img-wrap">
 						<img src="img/content-img-7.jpg" alt="alt">
 					</div>	
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					
 					<div class="post-content arrow arrow-left">
 						<div class="post-detail">
@@ -375,12 +381,8 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="img-wrap">
-						<img src="img/content-img-8.jpg" alt="alt">
-					</div>	
-				</div>
-				<div class="col-md-3">
+
+				<div class="col-md-3 col-md-push-3 col-sm-6 col-xs-6">
 					<div class="post-content arrow arrow-left">
 						<div class="post-detail">
 							<a href="#" class="category">ГЕОСТРАТЕГІЯ</a>
@@ -405,6 +407,11 @@
 						</ul>
 					</div>
 				</div>
+				<div class="col-md-3 col-md-pull-3 col-sm-6 col-xs-6">
+					<div class="img-wrap">
+						<img src="img/content-img-8.jpg" alt="alt">
+					</div>	
+				</div>
 			</div>
 		</div>
 		<div class="container">
@@ -420,7 +427,7 @@
 		</div>
 		<div class="post-content-wrap">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3  col-sm-6 col-xs-6">
 					<div class="post-content arrow arrow-right">
 						<div class="post-detail">
 							<a href="#" class="category">НОВИНИ</a>
@@ -447,12 +454,12 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3  col-sm-6 col-xs-6">
 					<div class="img-wrap">
 						<img src="img/content-img-9.jpg" alt="alt">
 					</div>	
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="post-content arrow arrow-right">
 						<div class="post-detail">
 							<a href="#" class="category">НОВИНИ</a>
@@ -478,7 +485,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3  col-sm-6 col-xs-6">
 					<div class="img-wrap">
 						<img src="img/content-img-10.jpg" alt="alt">
 					</div>	
@@ -491,7 +498,7 @@
 	<div class="wrapper">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 tags blok-news">
+				<div class="col-md-6 col-sm-6 tags blok-news">
 					<div class="tags-wrap">
 						<h3 class="tags-title"><i class="fa fa-tags"></i>ПОШУКОВІ ТЕГИ</h3>
 
@@ -512,7 +519,7 @@
 				</div>
 
 
-				<div class="col-md-6 news blok-news">
+				<div class="col-md-6 col-sm-6 news blok-news">
 					<div class="news-line-wrap">
 						<p class="news-text">Недержавна громадська організація, що досліджує проблеми культурології, політології, філософії та економіки</p>
 						<p class="news-autor">  @filteredmag</p>	
@@ -524,7 +531,7 @@
 	<div class="pre-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-12">
 					<h3 class="bottom-sicial-title pre-footer-title">МИ В СОЦІАЛЬНИХ МЕРЕЖАХ</h3>
 					<ul class="social-list">
 						<li class="social-item">
@@ -549,7 +556,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 col-sm-12">
 					<h3 class="pre-footer-title">ПІДПИСКА НА НОВИНИ</h3>
 					<form action="#" id="form-subsscribe">
 						<input type="email" class="subsscribe-email" required placeholder="">
@@ -565,7 +572,7 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="logo-wrap">
 						<a href="#"><img src="img/logo.png" alt="alt"></a>
 
@@ -573,7 +580,7 @@
 					<p class="copyright">MATRIX &copy; <span id="year">2017</span></p>
 					<p class="copyright ">Developed By <a href="https://msm-tech.net/uk" target="_blank" class="developed">MSM-Technologies</a></p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<h3 class="footer-title">Реклама на порталі</h3>
 					<ul class="footer-list">
 						<li class="list-item"><a href="#">Вимоги до рекламних матеріалів</a></li>
@@ -581,7 +588,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<h3 class="footer-title">Популярно</h3>
 					<ul class="footer-list">
 						<li class="list-item"><a href="#">Світ про україну</a></li>
@@ -589,7 +596,7 @@
 						<li class="list-item"><a href="#">Обговорення</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<h3 class="footer-title">Проект</h3>
 					<ul class="footer-list">
 						<li class="list-item"><a href="#">Місія нашого проекту</a></li>
